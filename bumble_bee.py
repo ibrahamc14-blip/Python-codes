@@ -44,5 +44,5 @@ def update():
      if flower_collected:
           score = score + 10
           place_flower()
-clock.schedule(time_up, 60.0)
+clock.schedule(time_up, 100)
 pgzrun.go()
